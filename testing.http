@@ -30,3 +30,23 @@ Content-Type: application/json
 
 ### Reading data from Courses table
 GET http://localhost:4004/odata/v4/course-api/CourseSet
+
+### Composition Examples
+POST http://localhost:4004/odata/v4/student-api/Authors
+Content-Type: application/json
+
+{
+     "name": "John Doe",
+     "books":[
+          {
+               "name":"SAP Leaning",
+               "title":"BTP Book",
+               "publishedDate":null
+          },
+          {
+               "name":"BTP CAPM",
+               "title":"BTP CAPM",
+               "publishedDate":null
+          }
+     ]
+}

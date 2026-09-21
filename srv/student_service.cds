@@ -4,10 +4,11 @@ using {student.db as model} from '../db/schema'; //model is user defined keyword
 service studentAPIService {
     //expose table(entity) as a entity set
     entity StudentSet as projection on model.Students;
+    entity Authors as projection on model.Authors;
 }
 
 //creating the course service
-service courseAPIService {
+//service courseAPIService {
     //expose table(entity) as a entity set
-    entity CourseSet as projection on model.Courses;
-}
+  //  entity CourseSet as projection on model.Courses;
+//}
