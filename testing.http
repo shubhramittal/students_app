@@ -1,0 +1,32 @@
+### Reading Data from Students table
+GET http://localhost:4004/odata/v4/student-api/StudentSet
+
+
+### Creating record in student table
+POST http://localhost:4004/odata/v4/student-api/StudentSet
+Content-Type: application/json
+
+{
+     "name": "ABCDEF",
+      "address": "123 Magnolia Lane, Austin, TX 78701",
+      "email": "ABCDEF@example.com",
+      "mobile": "+1-555-0192",
+      "age": 30,
+      "gender": "Male"
+ }
+
+### update Data - to use PUT - need to provide whole fields are needed,
+### with PTACH only field that need to be updated could be given
+ PATCH http://localhost:4004/odata/v4/student-api/StudentSet(ID='584739201948576102')
+ Content-Type: application/json
+
+ {     
+      "email": "smith.jane@example.com"
+ }
+
+###
+ DELETE http://localhost:4004/odata/v4/student-api/StudentSet
+
+
+### Reading data from Courses table
+GET http://localhost:4004/odata/v4/course-api/CourseSet

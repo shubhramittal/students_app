@@ -1,0 +1,6 @@
+ID,name,address,email,mobile,age,gender
+109384756201948576,"John Doe","123 Magnolia Lane, Austin, TX 78701",john.doe@example.com,+1-555-0192,20,Male
+584739201948576102,"Jane Smith","456 Oak Avenue, Boston, MA 02108",jane.smith@example.com,+1-555-0143,22,Female
+920194857610238475,"Alex Jones","789 Pine Road, Seattle, WA 98101",alex.jones@example.com,+1-555-0177,19,Non-binary
+384756201948576109,"Michael Brown","321 Elm Street, Chicago, IL 60601",michael.brown@example.com,+1-555-0115,21,Male
+473920194857610258,"Emily Davis","654 Maple Court, Denver, CO 80202",emily.davis@example.com,+1-555-0168,23,Female
